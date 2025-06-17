@@ -3,8 +3,14 @@
  */
 package org.example;
 
+import org.eclipse.uml2.uml.Model;
+
 public class App {
+
+    private Model myUmlModel;
+
     public String getGreeting() {
+        myUmlModel = null;
         return "Hello World!";
     }
 

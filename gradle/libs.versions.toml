@@ -4,7 +4,9 @@
 [versions]
 guava = "33.4.5-jre"
 junit = "4.13.2"
+uml2 = "5.5.0-SNAPSHOT"
 
 [libraries]
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
 junit = { module = "junit:junit", version.ref = "junit" }
+uml2 = { module = "org.eclipse.uml2.plugins:org.eclipse.uml2.uml", version.ref = "uml2" }

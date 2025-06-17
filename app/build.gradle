@@ -13,6 +13,9 @@ plugins {
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
+    maven {
+        url = uri("https://repo.eclipse.org/content/groups/uml2")
+    }
 }
 
 dependencies {
@@ -21,6 +24,7 @@ dependencies {
 
     // This dependency is used by the application.
     implementation libs.guava
+    implementation libs.uml2
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
